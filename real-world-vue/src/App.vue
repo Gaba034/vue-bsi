@@ -3,17 +3,16 @@ import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<template>
+<<template>
   <div id="layout">
     <header>
       <div class="wrapper">
         <nav>
-          <RouterLink to="/">Home</RouterLink> |
+          <RouterLink to="/">Events</RouterLink> |
           <RouterLink to="/about">About</RouterLink>
         </nav>
       </div>
     </header>
-    <h1>Events For Good</h1> <!-- new element -->
     <RouterView />
   </div>
 </template>
